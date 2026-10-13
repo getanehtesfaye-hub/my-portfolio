@@ -1,0 +1,5 @@
+   {
+     "buildCommand": "npm run build && npm run migrate",
+     "outputDirectory": "public",
+     "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
+   }
